@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<html></html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INES Geolocation and Navigation system</title>
+
+    <!-- leaflet-routing-machine -->
+    <!-- <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" /> --
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    
+
+    <-- for adding shapefiles -->
+   
+    <link rel="stylesheet" href="leafletShp/gh-pages.css">
+    <!-- geolocation -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css"
+    />
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.css" />
+      <!-- linking my css sheet -->
+     <link rel="stylesheet" href="css/index.css">
+    
+    <!-- leaflet css -->
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+    integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+    crossorigin=""
+  />
+     <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+     
+     <!-- Geocoding -->
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.2/dist/leaflet-search.mobile.min.css"
+  />
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/leaflet-search@3.0.2/dist/leaflet-search.min.css"
+  />
+
+  <!-- Legend -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.css"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.min.css"
+/>
+<link rel="stylesheet" href="leafletShp/gh-pages.css">
+
+</head>
+
+<body>
+  <header>
+    <h1> INES GEOLOCATION AND NAVIGATION SYSTEM</h1>
+  </header>
+  
+<div class="sidebar">
+  <!-- Inserting an image on the interface -->
+<img src="Ines-logo.PNG">
+  <div id="menuitems">
+    <h2>Home</h2>
+    <a href="html pages/About.html"><h2>About</h2></a>
+    <a href="html pages/Contact.html"><h2>Contact</h2></a>
+    <a href="https://form.jotform.com/222512989904565"><h2>Feedback</h2></a>
+    <a href="html pages/FAQ.html"><h2>FAQs</h2></a>
+    <a href="https://www.ines.ac.rw"><h2>INES WEBSITE</h2></a>
+    <p>&#169 Evelyne Iradukunda 2022</p>
+  </div>
+</div>
+  <div id="map"></div>
+  
+</body>
+
+
+<!-- leaflet -->
+<script
+    src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"
+    integrity="sha512-/Nsx9X4HebavoBvEBuyp3I7od5tA0UzAxs+j83KgC8PU0kgB4XiK4Lfe4y4cgBtaRJQEIFCW+oC506aPT2L1zw=="
+    crossorigin=""
+  ></script>
+<!-- for adding shapefiles -->
+<script src="leafletShp/leaflet.shpfile.js"></script>
+<script src="leafletShp/shp.js"></script>
+
+<!-- leaflet-routing-machine -->
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+ 
+  <!-- Geocoding -->
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.4.0/dist/leaflet-search.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet-search@2.4.0/dist/leaflet-search.src.js"></script>
+
+<!-- geolocation -->
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.76.1/dist/L.Control.Locate.min.js" charset="utf-8"></script>
+
+<!-- Legend -->
+<script src="https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet-legend@1.0.2/leaflet-legend.min.js"></script> 
+
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+
+
+ <script src="js/index.js"></script>
+</html>
+
+
