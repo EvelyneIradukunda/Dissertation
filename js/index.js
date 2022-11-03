@@ -145,7 +145,7 @@ var floor2 = new L.Shapefile("html pages/First floor.zip", {
     //   iconUrl: "icon1.png",
     // });
     layer.bindPopup(
-        `<div><img src="/Ines-logo.PNG"></div>
+        `<div><img src="Ines-logo.PNG"></div>
          <div><strong>Name</strong>: ${feature.properties.Name}</div>
          <div><strong>Floor</strong>: ${feature.properties.Floor}</div> 
         `
@@ -166,7 +166,7 @@ var routes = new L.Shapefile("html pages/Paths.zip", {
     //   iconUrl: "icon.png",
     // });
     layer.bindPopup(
-      `<div> <img src="/Ines-logo.PNG" ></div>
+      `<div> <img src="Ines-logo.PNG" ></div>
        <div>Road</div>
      `
     );
